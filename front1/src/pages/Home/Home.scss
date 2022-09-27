@@ -1,0 +1,45 @@
+
+.appHome{
+  .viewPort{
+    position: relative;
+    height: 390px;
+    overflow-y: scroll;
+    .assetsTableContainer{
+      position: absolute;
+      table{
+        width: 100%;
+        border-collapse: collapse;
+        position: sticky;
+        top: 0;
+        thead{
+          background-color: #fff;
+          tr{
+            border-top: 1px solid #e6e7e9;
+            border-bottom: 1px solid #e6e7e9;
+            th{
+              text-align: right;
+              font-size: 13px;
+              padding: 5px 8px;
+            }
+          }
+        }
+        tbody{
+          background-color: #fff;
+          tr{
+            border-bottom: 1px solid #e6e7e9;
+            // position: absolute;
+            td{
+              text-align: right;
+              font-size: 13px;
+              padding: 5px 8px;
+              .detailsLink{
+                text-decoration: none;
+                color: #207cc0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

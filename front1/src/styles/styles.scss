@@ -1,0 +1,13 @@
+@import "./grid";
+
+@font-face {
+  font-family: Iransans;
+  src: url("../assets/fonts/IRANSansWeb\(FaNum\).woff2");
+}
+
+body{
+  font-family: Iransans;
+  background-color: #f6f6fa;
+  direction: rtl;
+  margin: 0;
+}

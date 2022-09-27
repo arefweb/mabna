@@ -3,7 +3,7 @@
 front/node_modules
 server/node_modules
 front/.pnp
-front.pnp.js
+front/.pnp.js
 
 # testing
 front/coverage
@@ -17,6 +17,7 @@ front/.env.local
 front/.env.development.local
 front/.env.test.local
 front/.env.production.local
+front/.gitignore
 
 front/npm-debug.log*
 front/yarn-debug.log*
